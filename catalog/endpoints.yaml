@@ -21,7 +21,7 @@ endpoints:
   access: html_scrape
 - id: offer_cards
   method: GET
-  url: https://www.peoplesbank.lk/card-offers/
-  path: /card-offers/
-  summary: Card offer listing HTML.
+  url: https://www.peoplesbank.lk/special-offers/
+  path: /special-offers/
+  summary: Card offer listing HTML. Old /card-offers/ page is gone; bank now lists these under /special-offers/ (verified 2026-09-14).
   access: html_scrape
