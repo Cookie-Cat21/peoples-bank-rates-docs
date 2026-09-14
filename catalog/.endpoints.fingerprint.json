@@ -1,5 +1,5 @@
 {
-  "sha256": "1fd2827f1167d4bf0c976e14576885057393c1db8c4b6fda66e6fb2e3a97bfc0",
+  "sha256": "c087b713e1a142445841bea24c87585677a8a9ef4e5978e82821819756b2280b",
   "endpoint_count": 3,
   "endpoints": {
     "exchange_rates_html": {
@@ -25,13 +25,12 @@
     "offer_cards": {
       "id": "offer_cards",
       "method": "GET",
-      "path": "/card-offers/",
-      "url": "https://www.peoplesbank.lk/card-offers/",
+      "path": "/special-offers/",
+      "url": "https://www.peoplesbank.lk/special-offers/",
       "status": "live",
       "access": "html_scrape",
-      "summary": "Card offer listing HTML.",
+      "summary": "Card offer listing HTML. Old /card-offers/ page is gone; bank now lists these under /special-offers/ (verified 2026-09-14).",
       "pagination": null
     }
-  },
-  "updated": "2026-07-20"
+  }
 }
